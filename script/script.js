@@ -56,6 +56,14 @@ var flipCard = function(event){
             },1000)
         }
     }
+    didPlayerWin();
+}
+
+var didPlayerWin = function(){
+    if(mainGame.score === mainGame.arrOfImages.length/2){
+        $(".main").addClass("opacity");
+        $("#popUpWin").css("display","block");
+    }
 }
 
 var mainGame = {

@@ -30,3 +30,26 @@ h1{
     background-size: cover; 
     /* background-image: url("../images/card1.PNG"); */
 }
+#popUpWin{
+    display: none;
+    font-size: xx-large;
+    color: #a4bdff;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+button {
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+    padding: 4px;
+    background-color: #bde0ff;
+}
+button:hover {
+    background-color:#8ba9ff;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.opacity{
+    opacity: 0.1;
+}
